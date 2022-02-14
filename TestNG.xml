@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="MM-QA-Academy Selenium Test Suite"  verbose="1" parallel="methods" thread-count="1" >
+    <listeners>
+    </listeners>
+    <test name="Web tests" verbose="4" >
+        <classes>
+            <class name="selenium.module.DemoWebDriver02">
+                <methods>
+                    <include name="createAccount"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
